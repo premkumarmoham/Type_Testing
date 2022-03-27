@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    display: flex;
+    padding: 20px 50px;
+    z-index: 9999;
+    justify-content: space-between;
+}
+header .logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+header .toggle{
+    position: relative;
+    width: 36px;
+    height: 20px;
+
+}
+header .toggle img{
+    cursor: pointer;
+    background-size: cover;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2{
+    color: lightsteelblue;
+}
+.vs-para{
+
+    padding:10px 50px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea{
+    border: 2px solid rgb(6, 83, 199);
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+ ::placeholder{
+     padding: 10px;
+    color: rgb(24, 169, 236);
+}
+.correct{
+    color: rgb(60, 233, 25);
+}
+.incorrect{
+    color: red;
+}
+.content-center{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.correct-value{
+    color:rgb(41, 245, 41);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.correct-value-h3{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}

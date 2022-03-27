@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vitualmaze</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body onload="dataloading()">
+    <div class="wrapper">
+      <div class="content">
+        <header>
+          <a href="#" class="logo">Vitualmaze</a>
+          <div class="toggle">
+            <img src="./image/menu.png" width="36px" height="20px" />
+          </div>
+        </header>
+      </div>
+      <div class="banner">
+        <h2>Let's Test Your</h2>
+        <div>
+          <div class="vs-para" id="paraDisplayElement"></div>
+          <textarea id="inputElement" placeholder="Types here...."> </textarea>
+        </div>
+        <div class="content-center">
+            <span class="correct-value">Score:</span>
+          <h3 id="correctvalue" class="correct-value-h3"> </h3>
+        </div>
+        <div class="content-right">
+            <!-- <span class="incorrect-value">Incorrect:</span> -->
+          <!-- <h3 id="incorrectvalue"></h3> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
